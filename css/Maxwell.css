@@ -1,0 +1,69 @@
+/* Existing CSS content... */
+
+/* Extra-Small Screen Styles */
+@media (max-width: 576px) {
+    /* General adjustments */
+    body {
+        font-size: 14px; /* Smaller font size for better readability */
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Reduce header font size */
+    }
+
+    main h2, main h3 {
+        font-size: 1.2rem;
+    }
+
+    main p {
+        font-size: 0.9rem;
+    }
+
+    /* Sidebar */
+    .sidebar {
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px; /* Add space after the sidebar */
+        padding: 10px;
+    }
+
+    .sidebar h3 {
+        font-size: 1rem; /* Smaller sidebar title */
+    }
+
+    .sidebar .nav-link {
+        font-size: 0.9rem; /* Smaller navigation links */
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px; /* Optional: Rounded corners */
+    }
+
+    /* Buttons and Poll Form */
+    button,
+    .btn {
+        font-size: 0.9rem; /* Ensure buttons are readable */
+        padding: 10px 15px;
+        width: 100%; /* Full-width buttons for better usability */
+    }
+
+    #pollForm {
+        padding: 15px;
+        border: 1px solid #ffc107;
+        box-shadow: none; /* Simplify design for small screens */
+    }
+
+    /* Carousels */
+    .carousel img {
+        max-height: 250px; /* Adjust carousel image height */
+    }
+
+    /* Footer */
+    footer {
+        font-size: 0.8rem; /* Smaller footer text */
+        padding: 10px;
+    }
+}
